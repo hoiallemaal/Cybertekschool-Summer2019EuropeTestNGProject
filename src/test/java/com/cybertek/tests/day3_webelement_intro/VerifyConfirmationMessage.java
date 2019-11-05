@@ -58,7 +58,7 @@ package com.cybertek.tests.day3_webelement_intro;
 
         String actualMessage=messageElement.getText();
 
-      // System.out.println(actualMessage);**
+      // System.out.println(actualMessage);***
 
         if (expectedMessage.equals(actualMessage)){
             System.out.println("PASS");
