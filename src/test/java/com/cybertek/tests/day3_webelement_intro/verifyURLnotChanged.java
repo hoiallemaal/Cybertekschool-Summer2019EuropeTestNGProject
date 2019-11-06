@@ -11,7 +11,7 @@ public class verifyURLnotChanged {
      * open browser
      * go to http://practice.cybertekschool.com/forgot_passwordLinks to an external site.
      * click on Retrieve password
-     * verify that url did not change ******
+     * verify that url did not change *******
      *
      */
     public static void main(String[] args) {
