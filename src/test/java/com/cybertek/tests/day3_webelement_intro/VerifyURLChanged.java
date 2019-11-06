@@ -25,7 +25,7 @@ public class VerifyURLChanged {
         //sendKeys() --> send keybord actions to webelement/enters given text
         emailInput.sendKeys("email@gmail.com");
 
-        //locate to pasword button *****
+        //locate to pasword button ******
         WebElement retrievePasswordButton=driver.findElement(By.id("form_submit"));
         retrievePasswordButton.click();
 
