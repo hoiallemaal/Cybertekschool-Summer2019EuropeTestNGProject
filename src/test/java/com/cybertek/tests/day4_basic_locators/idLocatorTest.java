@@ -1,0 +1,26 @@
+package com.cybertek.tests.day4_basic_locators;
+
+import com.cybertek.utulities.WebDriverFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class idLocatorTest {
+
+
+    public static void main(String[] args) {
+        WebDriver driver= WebDriverFactory.getDriver("chrome");
+
+        //maximize your screen
+        driver.manage().window().maximize();
+
+        driver.get("http://practice.cybertekschool.com//multiple_buttons");
+
+        WebElement dontClickButton=driver.findElement(By.id("dissappearing_button"));
+      //clicking button
+        dontClickButton.click();
+
+        //close the browser
+        driver.quit();
+    }
+}
