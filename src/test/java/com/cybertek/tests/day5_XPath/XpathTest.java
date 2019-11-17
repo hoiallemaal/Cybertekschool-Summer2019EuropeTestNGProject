@@ -25,6 +25,6 @@ public class XpathTest {
         WebElement searchamazon=driver.findElement(By.xpath("//input[@class='nav-input']"));
         searchamazon.click();
 
-
+            driver.quit();
     }
 }
