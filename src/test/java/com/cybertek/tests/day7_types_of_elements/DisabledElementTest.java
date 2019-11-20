@@ -30,7 +30,7 @@ public class DisabledElementTest {
 
         WebDriver driver= WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
-        driver.get("https://practice.cybertekschool.com/dynamic_controls");
+        driver.get("R");
         WebElement inputBox= driver.findElement(By.cssSelector("#input-example>input"));
         System.out.println("is input enabled: "+ inputBox.isEnabled());
         inputBox.sendKeys("Mike Smith");
