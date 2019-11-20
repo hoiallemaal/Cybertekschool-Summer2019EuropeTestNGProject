@@ -25,7 +25,7 @@ public class DisplayedDemo {
 
         Assert.assertFalse(usernameInput.isDisplayed(),"verify that usernameinput is not displayed");
 
-        WebElement clickStart=driver.findElement(By.xpath("//button"));  //#start>button by css
+        WebElement clickStart=driver.findElement(By.xpath("//button"));  //#start>button by css b
 
         clickStart.click();
         Thread.sleep(5000);

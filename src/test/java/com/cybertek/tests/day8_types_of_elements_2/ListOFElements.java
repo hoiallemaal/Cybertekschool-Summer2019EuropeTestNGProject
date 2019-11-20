@@ -38,7 +38,7 @@ public class ListOFElements {
 
         WebDriver driver=WebDriverFactory.getDriver("chrome");
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
-        //wrong locator but we are not getting any error, we are getting empty list
+        //wrong locator but we are not getting any error, we are getting empty lisst
         List<WebElement> buttons = driver.findElements(By.tagName("buttonasdasdasda"));
 
         System.out.println(buttons.size());

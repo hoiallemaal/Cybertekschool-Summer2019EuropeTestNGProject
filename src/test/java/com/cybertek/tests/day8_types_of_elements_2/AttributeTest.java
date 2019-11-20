@@ -32,7 +32,7 @@ public class AttributeTest {
         //attiribute without value (checked), checked attribute value is boolean. if it is checked it is true
         System.out.println(radioButton.getAttribute("checked"));
 
-        //"outerHTML" returns full html of that element
+        //"outerHTML" returns full html of that elementt
         System.out.println(radioButton.getAttribute("outerHTML"));
 
 

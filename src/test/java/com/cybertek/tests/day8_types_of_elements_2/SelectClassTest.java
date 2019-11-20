@@ -71,8 +71,8 @@ public class SelectClassTest {
         actualOption=stateList.getFirstSelectedOption().getText();
         Assert.assertEquals(actualOption,"Wyoming");
 
-        //3. Using value
-        Thread.sleep(2000);
+        //3. Using valuee
+        Thread.sleep(2500);
 
         stateList.selectByValue("SC");
         actualOption=stateList.getFirstSelectedOption().getText();
