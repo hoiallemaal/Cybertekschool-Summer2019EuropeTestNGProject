@@ -29,6 +29,6 @@ public class AmazonTest {
 
               // String resultMessage = driver.findElement(By.xpath("(//span[@dir='auto'])[1]"));
 
-               //System.out.println(resultMessage);
+               //System.out.println(resultMessage);..
             }
 }

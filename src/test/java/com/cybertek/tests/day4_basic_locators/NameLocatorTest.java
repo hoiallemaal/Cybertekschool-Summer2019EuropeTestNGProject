@@ -22,7 +22,7 @@ public class NameLocatorTest {
         WebElement clicksignUp=driver.findElement(By.name("wooden_spoon"));
         clicksignUp.click();
 
-        //verify that you got the correct message
+        //verify that you got the correct message.
 
         String expected_mes="Thank you for signing up. Click the button below to return to the home page.";
 

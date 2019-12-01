@@ -42,7 +42,7 @@ public class MultibleWindows {
             //how many different handles it is keeping
             System.out.println(windowHandles.size());
             //our problem is how can we get new window handle from set of handles.There is no index.
-            //loop through all handles inside the Set of handles
+            //loop through all handles inside the Set of handles.
             for (String handle : windowHandles) {
                 //checking handle is not equal to current page
                 if(!currentWindowHandle.equals(handle)){

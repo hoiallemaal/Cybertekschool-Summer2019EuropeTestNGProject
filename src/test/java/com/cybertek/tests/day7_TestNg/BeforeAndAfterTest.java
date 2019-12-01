@@ -13,7 +13,7 @@ public class BeforeAndAfterTest {
             // beginning of the each test
         //get driver
         // maximize browser
-        //open browser
+        //open browser.
         //
 
     }

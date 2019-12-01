@@ -11,7 +11,7 @@ public class idLocatorTest {
     public static void main(String[] args) {
         WebDriver driver= WebDriverFactory.getDriver("chrome");
 
-        //maximize your screen
+        //maximize your screen  .
         driver.manage().window().maximize();
 
         driver.get("http://practice.cybertekschool.com//multiple_buttons");

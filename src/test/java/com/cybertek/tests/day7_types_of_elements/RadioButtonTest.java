@@ -22,7 +22,7 @@ public class RadioButtonTest {
         System.out.println("Is blue selected: "+ blueRadioButton.isSelected());
         System.out.println("Is red selected: "+redRadioButton.isSelected());
 
-        // verify that blue radio butto is selected
+        // verify that blue radio butto is selected.
 
         Assert.assertTrue(blueRadioButton.isSelected(), "verify that blue radio button is selected");
 

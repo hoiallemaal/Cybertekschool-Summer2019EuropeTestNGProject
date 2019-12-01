@@ -18,7 +18,7 @@ public class DisabledElementTest {
 
         WebElement greenButton=driver.findElement(By.id("green"));
 
-        //how can we check button is enabled or not
+        //how can we check button is enabled or not.
         System.out.println("Is element enabled: "+greenButton.isEnabled());
         //verify that green button is disaled
         Assert.assertFalse(greenButton.isEnabled(),"verify that green button is disabled");

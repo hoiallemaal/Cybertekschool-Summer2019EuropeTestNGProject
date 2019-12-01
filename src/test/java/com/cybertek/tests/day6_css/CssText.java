@@ -14,7 +14,7 @@ public class CssText {
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
         WebElement dontClickButton = driver.findElement(By.cssSelector("[onclick='button1()']"));
         String message = dontClickButton.getText();
-        System.out.println("message = " + message);
+        System.out.println("message = " + message); //
 
     }
 }

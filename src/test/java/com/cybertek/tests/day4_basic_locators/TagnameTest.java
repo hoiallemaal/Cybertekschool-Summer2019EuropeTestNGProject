@@ -25,7 +25,7 @@ public class TagnameTest {
         String abc= messagelast.getText();
         System.out.println(abc);
 
-        System.out.println(driver.findElement(By.tagName("h3")).getText());   //het zelfde
+        System.out.println(driver.findElement(By.tagName("h3")).getText());   //het zelfde.
 
 
 }

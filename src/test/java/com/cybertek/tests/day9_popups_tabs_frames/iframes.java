@@ -36,7 +36,7 @@ public class iframes {
     Thread.sleep(2000);
     // how we are gonna switch back, there are two ways. this is useful for more than two frames.
         driver.switchTo().defaultContent();
-        //2. using index
+        //2. using index.
         driver.switchTo().frame(0);
         driver.findElement(By.id("tinymce")).sendKeys("nfkdnkndkn");
         //go back to first frame, only to parent

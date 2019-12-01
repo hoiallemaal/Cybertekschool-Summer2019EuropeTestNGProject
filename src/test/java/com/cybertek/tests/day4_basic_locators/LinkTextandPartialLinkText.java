@@ -18,7 +18,7 @@ public class LinkTextandPartialLinkText {
      //   link3.click();
         //lazy way of clicking home
         //driver.findElement(By.linkText("Home")).click();
-        //partial link text
+        //partial link text .
         WebElement link6 = driver.findElement(By.partialLinkText("6"));
         link6.click();
     }

@@ -13,7 +13,7 @@ public class ClassLocaterTest {
         driver.get("https://practice.cybertekschool.com/sign_up");
 
        // WebElement Home=driver.findElement(By.tagName("a"));
-       // Home.click();
+       //   //Home.click();
 
         WebElement Home1=driver.findElement(By.className("nav-link"));
         Home1.click();

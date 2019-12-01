@@ -15,7 +15,7 @@ public class TestNGAsserteionsDemo {
     }
     @Test
     public  void test2(){
-        // verify that title starts with C
+        // verify that title starts with C.
 
         String actualTitle="Cybertek";
         String expectedTitle="C";

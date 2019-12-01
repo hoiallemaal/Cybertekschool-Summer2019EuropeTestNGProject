@@ -12,7 +12,7 @@ public class AmazonTest {
         WebDriver driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.get("http://practice.cybertekschool.com/multiple_buttons");
-        driver.get("https://www.amazon.com");
+        driver.get("https://www.amazon.com"); //
 
 
         WebElement amazonselenium = driver.findElement(By.id("twotabsearchtextbox"));

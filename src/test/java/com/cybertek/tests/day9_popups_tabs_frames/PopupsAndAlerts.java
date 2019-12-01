@@ -32,7 +32,7 @@ public class PopupsAndAlerts {
         driver.get("http://practice.cybertekschool.com/javascript_alerts");
         //Click for JS Alert
         driver.findElement(By.xpath("//button[1]")).click();
-        //Controling alert using with Alert class
+        //Controling alert using with Alert class.
         Alert alert = driver.switchTo().alert();
         Thread.sleep(2000);
         //accept alert --> clicking ok in the alerts
