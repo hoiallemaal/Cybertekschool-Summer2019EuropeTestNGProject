@@ -34,4 +34,8 @@ public class TestNGAsserteionsDemo {
     public void test4(){
         Assert.assertFalse(1<0);
     }
+
+   //  src/test/resources/testfile.txt
+
+  //  C:\Users\Gebruiker\IdeaProjects\Summer2019EuropeTestNGProject\src\test\resources\testfile.txt
 }

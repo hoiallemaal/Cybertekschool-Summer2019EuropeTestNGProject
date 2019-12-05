@@ -15,7 +15,8 @@ public class FilePathExample {
 
         String filePath=projectPath+"/"+relativepath;
         System.out.println(filePath);
-    }
+    }   //src/test/resources/testfile.txt
+       //C:\Users\Gebruiker\IdeaProjects\Summer2019EuropeTestNGProject\src\test\resources\testfile.txt
 
     @Test
     public void test2(){
