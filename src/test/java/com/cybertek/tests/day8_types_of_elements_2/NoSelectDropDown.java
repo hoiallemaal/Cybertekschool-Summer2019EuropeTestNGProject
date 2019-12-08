@@ -12,7 +12,7 @@ import java.util.List;
 public class NoSelectDropDown {
 
     @Test
-    public void test1()    {
+    public void test1() throws InterruptedException {
         WebDriver driver= WebDriverFactory.getDriver("chrome");
     driver.get("http://practice.cybertekschool.com/dropdown");
 
@@ -20,6 +20,7 @@ public class NoSelectDropDown {
        //Select links=new Select(dropdownelement);
 
         //open the dropdown
+        Thread.sleep(5000);
         dropdownelement.click();
 
        List<WebElement> listoflinks = driver.findElements(By.className("dropdown-item"));
