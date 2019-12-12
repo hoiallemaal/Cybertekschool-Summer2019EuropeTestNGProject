@@ -40,8 +40,8 @@ public class HoverTest {
         for (int i = 1; i <4 ; i++) {
 
             String imageXpath="(//img)["+i+"]";
-
             WebElement img=driver.findElement(By.xpath(imageXpath));
+
 
             Actions actins=new Actions(driver);
 
