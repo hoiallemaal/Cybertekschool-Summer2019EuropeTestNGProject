@@ -54,7 +54,7 @@ public class RepeatOptionsTests extends TestBase {
         Go to Activities->Calendar
         Click on create calendar events
         Click on repeat
-        Verify that repeat options are Daily, Weekly, Monthly,Yearly(in this order)
+        Verify that repeat options are Daily, Weekly, Monthly,Yearly(in this order...)
      */
 
     @Test
