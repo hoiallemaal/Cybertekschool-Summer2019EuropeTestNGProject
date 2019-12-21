@@ -42,7 +42,7 @@ public class RepeatOptionsTests extends TestBase {
         //Click on repeat
         CreateCalendarEventsPage createCalendarEventsPage = new CreateCalendarEventsPage();
         createCalendarEventsPage.repeat.click();
-        //Verify that repeat every days is checked
+        //Verify that repeat every days is checked...
         Assert.assertTrue(createCalendarEventsPage.days.isSelected(),"Verify days rb is selected");
         //verify that repeat weekday is not checked
         Assert.assertFalse(createCalendarEventsPage.weekday.isSelected(),"Verify weekdays rb is not selected");
