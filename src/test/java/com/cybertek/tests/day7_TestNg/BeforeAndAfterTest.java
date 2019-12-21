@@ -1,7 +1,5 @@
 package com.cybertek.tests.day7_TestNg;
 
-import com.cybertek.utulities.WebDriverFactory;
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
 public class BeforeAndAfterTest {

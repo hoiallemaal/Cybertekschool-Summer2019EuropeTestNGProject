@@ -1,7 +1,7 @@
 package com.cybertek.tests.day13_properties_driver_testbase;
 
-import com.cybertek.utulities.ConfigurationReader;
-import com.cybertek.utulities.Driver;
+import com.cybertek.utilities.ConfigurationReader;
+import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 

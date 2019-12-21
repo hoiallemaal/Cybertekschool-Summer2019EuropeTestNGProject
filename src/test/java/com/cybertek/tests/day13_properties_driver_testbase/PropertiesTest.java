@@ -1,6 +1,6 @@
 package com.cybertek.tests.day13_properties_driver_testbase;
 
-import com.cybertek.utulities.ConfigurationReader;
+import com.cybertek.utilities.ConfigurationReader;
 import org.testng.annotations.Test;
 
 public class PropertiesTest {

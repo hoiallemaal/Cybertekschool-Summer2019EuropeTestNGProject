@@ -1,6 +1,6 @@
 package com.cybertek.tests.day10_sync;
 
-import com.cybertek.utulities.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

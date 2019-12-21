@@ -1,6 +1,6 @@
 package com.cybertek.tests.day9_popups_tabs_frames;
 
-import com.cybertek.utulities.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,6 +37,7 @@ public class iframes {
     // how we are gonna switch back, there are two ways. this is useful for more than two frames.
         driver.switchTo().defaultContent();
         //2. using index.
+
         driver.switchTo().frame(0);
         driver.findElement(By.id("tinymce")).sendKeys("nfkdnkndkn");
         //go back to first frame, only to parent
