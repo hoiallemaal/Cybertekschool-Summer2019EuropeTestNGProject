@@ -32,13 +32,15 @@ public class Newtry extends TestBase {
 
       //  ConfigurationReader con=new ConfigurationReader();
 
-
-
     //  log.login(ConfigurationReader.get("driver_username"),ConfigurationReader.get("driver_password"));
         extentLogger = report.createTest("Wrong Password Test");
         extentLogger.info("Click login button");
         log.login(a,b);
         System.out.println("gdgh");
+
+        DashboardPage dashboardPage = new DashboardPage();
+        //dashboardPage.navigateToModule("Activities","Calendar Events");
+        dashboardPage.navigateToModule("Fleet","Vehicles");
 }
     @Test
     public void test3(){
