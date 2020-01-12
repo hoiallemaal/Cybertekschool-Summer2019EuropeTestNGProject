@@ -27,6 +27,7 @@ public class VerifyContactInfoTests extends TestBase {
         extentLogger.info("password: "+password);
         extentLogger.info("Login as a sales manager");
         loginPage.login(username,password);
+
         ContactsPage contactsPage = new ContactsPage();
         extentLogger.info("Navigate to Customer -- Contacts Page");
         contactsPage.navigateToModule("Customers","Contacts");
@@ -34,8 +35,8 @@ public class VerifyContactInfoTests extends TestBase {
         BrowserUtils.waitFor(2);
         extentLogger.info("Click on mbrackstone9@example.com email");
         contactsPage.getContactEmail("mbrackstone9@example.com").click();
-        ContactsInfoPage contactInfoPage = new ContactsInfoPage();
 
+        ContactsInfoPage contactInfoPage = new ContactsInfoPage();
         String actualFullname = contactInfoPage.fullname.getText();
         String expectedFullname = "Ms Mariam Brackstone";
         extentLogger.info("Verify fullname is "+expectedFullname);

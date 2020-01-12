@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack automation" verbose="1">
+    <test name="Vytrack smoke tests">
+
+
+        <classes>
+
+           <class name="com.cybertek.tests.day15_extend_report.ExtentDemoTest">
+               <methods>
+                   <exclude name="wrongPasswordTest"></exclude>
+               </methods>
+           </class>
+        </classes>
+
+    </test>
+</suite>
